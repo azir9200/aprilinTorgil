@@ -1,0 +1,96 @@
+p {
+    text-align: center;
+    font-size: 40px;
+    border-style: aqua red green blue;
+}
+
+#para1 {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: justify;
+    background-color: aqua;
+    text-decoration: wavy;
+    text-shadow: antiquewhite;
+    text-decoration-color: blueviolet;
+    padding: 20px 30px;
+    border-width: 20px 30px;
+    margin: 20px 30px;
+    float: right;
+}
+
+.center {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: initial;
+    color: chartreuse;
+    border: dashed;
+    border-radius: 2px;
+}
+
+h1,
+h3,
+p {
+    text-align: center;
+    font-family: cursive;
+    text-transform: lowercase;
+    text-shadow: none;
+    text-decoration-color: chocolate;
+    background-color: cornflowerblue;
+    border: hidden;
+}
+
+p.dashed {
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+p.groove {
+    border-style: groove dashed solid double;
+    border-color: black blue orange green;
+    border-radius: 9px;
+}
+
+p.one {
+    border-style: solid;
+    border-width: 5px 20px;
+    /*5px top and 20px bottom */
+}
+
+p.two {
+    border-style: hidden;
+    border-width: 20px 5px;
+    font-size: 25px;
+    background-color: rgb(218, 16, 187);
+    padding: 80px 60px 20px 20px;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    float: left;
+    background: linear-gradient(pink, blue);
+}
+
+p.three {
+    border-style: double;
+    border-width: auto;
+    height: 150px;
+    width: 300px;
+    padding: 70px 30px 20px 50px;
+    background-color: chartreuse;
+    float: right;
+}
+
+div.bangla {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    text-transform: capitalize;
+    background: linear-gradient(yellow, green);
+}
+
+span {
+    border: 2px solid red;
+    display: block;
+    padding: 20px 20px;
+    padding-bottom: inherit;
+
+}
